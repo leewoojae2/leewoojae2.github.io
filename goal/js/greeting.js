@@ -2,6 +2,7 @@ const form = document.getElementById("form");
 const names = document.querySelector(".name");
 const button = document.querySelector(".button");
 const write = document.querySelector(".write");
+const todo = document.getElementById("todo");
 
 function handlebtn(event) {
   event.preventDefault();
@@ -13,6 +14,7 @@ function handlebtn(event) {
 
 function returns(user) {
   write.classList.remove("hidden");
+  todo.classList.remove("hidden");
   write.innerText = `${user}'s have to do list`;
 }
 
