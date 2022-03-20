@@ -2,22 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 50px;
-  color: blueviolet;
+  font-size: 40px;
+  color: black;
 }
 #list li {
   position: relative;
 }
 #list span {
-  color: black;
+  color: yellow;
+  font-weight: bold;
   padding-right: 15px;
 }
 #list button {
   position: absolute;
   top: 5px;
-  width: 55px;
-  height: 55px;
-  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
   border-radius: 50%;
   border: 1px solid black;
   background-color: aqua;
